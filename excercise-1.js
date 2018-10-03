@@ -3,15 +3,13 @@ function angkaPrima(angka) {
     
     for(i = 1 ; i<angka ; i++){
       for(j = 1 ; j<angka; j++){
-        if(angka !== (i*j)){
-          check = check * true;
-        } else {
-          check = check * false;
-        }
+        if(angka === (i*j) || angka === 1){
+          check = false
       }
     }
-    return Boolean(check)
   }
+    return Boolean(check)
+}
   
   // TEST CASES
   console.log(angkaPrima(3)); // true
