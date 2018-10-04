@@ -4,25 +4,6 @@ function countProfit(shoppers) {
                        ['Sweater Uniklooh', 175000, 1]
                      ];
   
-   var resultSepatu ={
-    product: "Sepatu Stacattu",
-    shoppers: [],
-    leftover: 0,
-    totalProfit: 0,
-   }
-   var resultBaju ={
-    product: "Baju Zoro",
-    shoppers: [],
-    leftover: 0,
-    totalProfit: 0,
-   }
-   var resultSweater ={
-    product: "Sweater Uniklooh",
-    shoppers: [],
-    leftover: 0,
-    totalProfit: 0,
-   }
-  
   var result = []
    for(var i = 0; i < listBarang.length; i++){
      var bought = 0;
