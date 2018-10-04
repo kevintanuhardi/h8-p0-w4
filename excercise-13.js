@@ -39,7 +39,9 @@ function countProfit(shoppers) {
       row.leftover = listBarang[i][2] - bought;
       row.totalProfit = listBarang[i][1] * bought; 
      }
+    if(shoppers.length !== 0 ){
     result.push(row);
+    }
    }
   
   return result;
